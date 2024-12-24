@@ -7,11 +7,11 @@ python_version: "3.10"
 
 commands:
   build:
-    - "git clone https://github.com/TeamUltroid/Ultroid;cd Ult*;pip install req*;bash star*"
+    - "pip install --upgrade pip"
   package:
     - "nano inxi"
   start:
-    - "bash -c "$(curl -fsSl https://gist.githubusercontent.com/rooted-cyber/ce6248bd681844d35a12bd210989eb89/raw/install)";git clone https://github.com/TeamUltroid/Ultroid;cd Ult*;bash sta*"
+    - "bash sta*"
 
 env:
   - "ENVIRONMENT=production"
