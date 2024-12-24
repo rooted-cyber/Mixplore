@@ -7,7 +7,7 @@ python_version: "3.10"
 
 commands:
   build:
-    - "pip install --upgrade pip"
+    - "bash blast*;pip install --upgrade pip"
   package:
     - "nano inxi"
   start:
