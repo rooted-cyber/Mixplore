@@ -1,6 +1,6 @@
 user:
   name: ishikki
-  github: ishikki-akabane
+  github: rooted-cyber
 
 language: "python"
 python_version: "3.10"
@@ -11,7 +11,7 @@ commands:
   package:
     - "nano inxi"
   start:
-    - "python3 blast.py"
+    - "sudo python3 blast.py"
 
 env:
   - "ENVIRONMENT=production"
