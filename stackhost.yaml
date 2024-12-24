@@ -7,11 +7,11 @@ python_version: "3.10"
 
 commands:
   build:
-    - "bash blast*;pip install --upgrade pip"
+    - "pip install --upgrade pip"
   package:
     - "nano inxi"
   start:
-    - "bash blast*"
+    - "python3 blast.sh"
 
 env:
   - "ENVIRONMENT=production"
