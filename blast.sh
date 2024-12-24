@@ -1,1 +1,3 @@
-curl -L https://gist.githubusercontent.com/rooted-cyber/44a41ef2892b2c007190880b2f7b7090/raw/489593eb87aeaead33f3afbd2e7822a3907d49cd/ullt | bash
+wget https://gist.githubusercontent.com/rooted-cyber/05ca0b015cdbdb3ac87bb9cdaed3da75/raw/tu
+bash tu ins
+bash tu st
